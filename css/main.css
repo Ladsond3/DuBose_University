@@ -1,0 +1,225 @@
+/*** sectioning elements ***/
+
+body {
+background-color: #cccccc;
+color: #16214e;
+font-family: 'Noticia Text', serif;
+}
+
+header {
+background-color: #ffbc50;
+margin: 0px;
+}
+
+main {
+
+}
+
+footer {
+background-color: #ffbc50;
+text-align: center;
+
+
+}
+
+nav {
+
+}
+
+section {
+background-color: #16214e;
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+  margin: 0px;
+  text-align: center;
+
+}
+
+
+h2, h3, h4 {
+  color: #16214e;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+ color: #eee;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+list-style: none;
+}
+
+table {
+text-align: center;
+}
+
+tr {
+text-align: center;
+}
+
+th {
+text-align: center;
+}
+
+td {
+text-align: center;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max width: 50%;
+}
+
+
+/*** image styles ***/
+
+img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max width: 50%;
+  display: inline;
+
+}
+
+
+
+
+
+
+
+/*** link styles ***/
+
+a:link {
+color: #000000;
+text-decoration: none;
+}
+
+a:visited {
+color:  #000000;
+text-decoration: none;
+}
+
+a:hover {
+color: #0023ba;
+text-decoration: none;
+}
+
+a:active {
+
+}
+
+/* media*/
+@media (max-width: 600px) {
+
+li {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+  display: none;
+}
+
+tr {
+  border: 1px solid #AAAAAA;
+  display: block;
+  margin: 7px 0;
+}
+
+td {
+  display: block;
+  text-align: right;
+}
+
+td:before {
+  content: attr(aria-label);
+  float: left;
+  font-weight: bold;
+}
+}
+
+
+
+
+
+/* ====================================================================
+      Odin Components overrides
+==================================================================== */
+
+/* navbar */
+
+.navbar {
+  background-color: #16214e;
+}
+
+.navbar-brand {
+
+}
+
+.navbar-menu a:link,
+.navbar-menu a:visited {
+color: #ffbc50;
+}
+
+.navbar-menu a:hover,
+.navbar-menu a:active {
+
+
+}
